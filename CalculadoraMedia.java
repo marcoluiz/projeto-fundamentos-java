@@ -23,5 +23,13 @@ public class CalculadoraMedia{
     System.out.println("primeira nota: "+ nota);
     System.out.println("segunda nota: "+ nota2);
 
+    double media = nota + nota2;
+
+    if (media < 7){
+        System.out.println("Reprovado");
+    } else {
+        System.out.println("Aprovado");
+    }
+
   }  
 } 
